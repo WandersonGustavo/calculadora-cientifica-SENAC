@@ -65,8 +65,8 @@ export class App{
             resultadoPotencia.innerHTML = potencia(num1.value, num2.value);
             resultadoPotenciaInstead.innerHTML = potencia(num2.value, num1.value);
 
-            resultadoRaizQ.innerHTML = raizQuadrada(num1.value);
-            resultadoRaizQInstead.innerHTML = raizQuadrada(num2.value);
+            resultadoRaizQ.innerHTML = raizQ(num1.value);
+            resultadoRaizQInstead.innerHTML = raizQ(num2.value);
 
             resultadoSoma.innerHTML = soma(num1.value, num2.value);
             resultadoSomaInstead.innerHTML = soma(num2.value, num1.value);
